@@ -19,6 +19,7 @@ namespace ProductAPI.Controllers
 
         public ProductsController(Data.AppContext context)
         {
+
             _context = context;
         }
 
