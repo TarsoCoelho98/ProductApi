@@ -13,12 +13,16 @@ namespace ProductAPI.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+
+
         private readonly Data.AppContext _context;
 
         public ProductsController(Data.AppContext context)
         {
             _context = context;
         }
+
+
 
         // GET: api/Products
         [HttpGet]

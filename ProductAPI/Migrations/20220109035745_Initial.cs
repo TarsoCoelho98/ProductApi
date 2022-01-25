@@ -7,6 +7,7 @@ namespace ProductAPI.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+
             migrationBuilder.CreateTable(
                 name: "Products",
                 columns: table => new
