@@ -22,6 +22,8 @@ namespace ProductAPI.Controllers
             _context = context;
         }
 
+
+
         // GET: api/Products
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
